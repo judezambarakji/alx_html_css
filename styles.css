@@ -9,6 +9,7 @@ body{
 }
 
 main{
+    background: linear-gradient(132deg, rgb(0, 103, 154) 0.00%, rgb(0, 173, 239) 100.00%);;
     flex-direction: row;
     flex: auto;
 
