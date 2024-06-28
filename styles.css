@@ -21,6 +21,7 @@ article{
 }
 
 aside{
+    background: linear-gradient(132deg, rgb(241, 242, 11) 0.00%, rgb(248, 161, 27) 100.00%);
     flex: 1;
     overflow-y: auto;
 }
