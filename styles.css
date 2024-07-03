@@ -1,3 +1,7 @@
-
-
-
+body {
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+}
+ .person_name{
+    background-color: C271FF ;
+}
