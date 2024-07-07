@@ -59,21 +59,25 @@ nav {
     margin: 0 10px;
 }
 
-.banner {
+.the-pros {
     display: flex;
-    justify-content: center
+    justify-content: space-around;
+    color: white;
 }
 
 .text-facial-expressions {
+    font-family: 'spincycle_ot-webfont';
+    font-size: 20px;
+    color: white;
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-evenly;
+}  
 
 .motto-text {
 
 }
 
-h1, h2{
+h1, h2 {
     color: white;
     text-align: center;
     font-family: "Source Sans 3", sans-serif;
@@ -81,12 +85,13 @@ h1, h2{
     font-weight: 700;
 }
 
-h3 {
+blockquote {
     font-family: "Source San 3", sans-serif;
     color: white;
 }
 
-h1{
+
+h1 {
     font-size:100px;
     font-style: normal;
 }
@@ -98,8 +103,6 @@ h1{
     text-align: center;
 }
 
-span {
-    font-family: 'spincycle_ot-webfont';
-    font-size: 20px;
-    color: white;
+.videos {
+    font-family: "Source San 3", sans-serif;
 }
