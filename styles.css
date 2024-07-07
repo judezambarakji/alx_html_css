@@ -8,6 +8,8 @@
 
 
 body {
+    display: flex;
+    flex-direction: column;
     background-image: url(Object.png);
     background-repeat: no-repeat;
     margin: 0;
@@ -59,10 +61,17 @@ nav {
     margin: 0 10px;
 }
 
+.Pro-1, .Pro-2, .Pro-3, .Pro-4 {
+    width: 200px;
+    text-align: center ;
+}
+
 .the-pros {
+
     display: flex;
     justify-content: space-around;
     color: white;
+    margin: 100px;
 }
 
 .text-facial-expressions {
@@ -73,7 +82,11 @@ nav {
     justify-content: space-evenly;
 }  
 
-.motto-text {
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 989px;
 
 }
 
@@ -105,4 +118,8 @@ h1 {
 
 .videos {
     font-family: "Source San 3", sans-serif;
+}
+
+button {
+
 }
