@@ -91,7 +91,105 @@
     font-style: normal;
 }
 
+/* styles.css */
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-BlackIt.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-BoldIt.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-ExtraLightIt.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-It.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-LightIt.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('fonts/SourceSansPro-SemiboldIt.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'spincycle_ot-webfont';
+    src: url('fonts/spincycle_regular_macroman/spincycle_ot-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+    font-family: 'SourceSansPro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
     font-family: 'SourceSansPro', sans-serif;
     display: flex;
     flex-direction: column;
@@ -100,8 +198,184 @@ body {
 }
 .person_name{
         background-color: C271FF ;
+.person_name{
+        background-color: C271FF ;
 }
 
+footer {
+        background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 10% 0px 10%;
+}
+
+.left-side-nav {
+
+    flex-grow: 1;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.right-side-nav {
+    display: flex;
+    flex-grow: 8;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links link {
+    display: block;
+    padding: 0 20px;
+}
+
+header {
+    position: relative;
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    background-color: 071629;
+    min-height: 100vh;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(41, 48, 61, 0) 0%, rgba(41, 48, 61, 0.5) 50%, rgba(7, 22, 41, 0.8) 100%);
+    mix-blend-mode: multiply;
+    pointer-events: none; /* To ensure it doesn't block any interactions */
+    z-index: 0; /* Ensures it is below the content but above the background image */
+}
+
+header * {
+    position: relative;
+    z-index: 1; /* Ensures content stays above the pseudo-element */
+}
+
+.Pro-1, .Pro-2, .Pro-3, .Pro-4 {
+    text-align: center ;
+}
+
+.the-pros {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.smile-text {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30%;
+    margin: 0px;
+}  
+
+.learn-from-pros{
+    margin-top: 20px;
+}
+
+.purple-highlight {
+    color: #C271FF;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 700;
+    padding: 60px 0px 60px 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 120px;
+    font-style: normal;
+}
+
+blockquote {
+    font-family: "Source San 3", sans-serif;
+    color: white;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #C271FF;
+    color: white;
+    padding: 100px 0px 100px 0px;
+}
+
+.testimonial-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px 0px 60px;
+    font-size: 22px;
+}
+
+.testimonial-text blockquote {
+    padding: 0px;
+    margin: -10px 0px 0px 0px;
+    max-width: 80%;
+    text-align: left;
+}
+
+.person_name {
+    padding: 0px;
+    margin: 0px;
+}
+
+.weather-presenter {
+    padding: 0px;
+    margin: -20px 0px 0px 0px;
+    font-style: italic;
+}
+
+.videos {
+    font-family: "Source San 3", sans-serif;
+}
+
+button {
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer; 
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.register-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 10px 0px;
+}
 nav {
     display: flex;
     flex-direction: row;
