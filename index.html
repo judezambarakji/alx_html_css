@@ -1,178 +1,205 @@
 <html lang="en">
 <!DOCTYPE html>
+
 <head>
     <title> alx_html_css </title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
+
 </head>
 
-
-<body class="works_on_smartphone"> 
+<body class="works_on_smartphone">
     <header> <!--Header-->
         <nav>
-            <img src="logo.png" alt="logo">
-            <Link href="#">COURSE</Link>
-            <Link href="#">PRICING</Link>
-            <Link ref="#">LOGIN</Link>
+            <div class="left-side-nav">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="right-side-nav">
+                <div class="nav-links">
+                    <link href="#">PRICING</link>
+                    <link href="#">LOGIN</link>
+                    <link href="#">COURSE</link>
+                </div>
+            </div>
         </nav>
     </header>
-        <main >
-            <section class="banner"> <!--Banner-->
-                <div>
-                    <h1>Get schooled</h1>
-                    <span>SMILES</span>
-                    <span>GRIN</span>
-                    <span>LAUGH</span>
-                    <button>REGISTER FOR FREE</button>
-                </div>
-                <div>
-                    <h2>Learn from the pros</h2>
-                    <img src="Phillip Massey.png" alt="Phillip Massey Pic">
-                    <h3>Phillip Massey</h3>
-                    <p>« Smile of the year » 2018 - 2019</p>
-                </div>
-                <div>
-                    <img src="Nannie Lawrence.png" alt="Nannie Lawrence Pic">
-                    <h3>Nannie Lawrence</h3>
-                    <p>Best « little smile » 2017</p>
-                </div>
-                <div>
-                    <img src="Bruce Walters.png" alt="Bruce Walters Pic">
-                    <h3>Bruce Walters</h3>
-                    <p>Best « Friend Smile » live performance 2019</p>
-                </div>
-                <div>
-                    <img src="Henry Hughes.png" alt="Henry Hughes Pic">
-                    <h3>Henry Hughes</h3>
-                    <p>« 24h smiles » winner 2016 - 2019</p>
-                </div>
-            </section>
-            <section class="person_name"> <!--Quote-->
-                <div>
-                    <img src="Person Name.png" alt="Person Name Pic">
-                </div>
-                <div>
-                    <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</blockquote>
-                    <h3>Person Name</h3>
-                    <P>weather presenter</P>
-                </div>
-            </section>
-            <section> <!--Videos-->
-                <h2>Most popular tutorials</h2>
-                <div> 
-                    <img src="Diagonal Smile.png" alt="Diagonal Smile Pic">
-                    <h3>Diagonal Smile</h3>
-                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                    <div> <!--Rating-->
-                        <img src="rating.png" alt="Rating Pic">
-                        <h4>Phillip Massey</h4>
-                    </div>
-                    <p>8 min</p>
-                </div>
-                <div>
-                    <img src="Happy Smile.png" alt="Happy Smile Pic">
-                    <h3>Happy Smile</h3>
-                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                    <div> <!--Rating-->
-                        <img src="rating.png" alt="rating">
-                        <h4>Phillip Massey</h4>
-                    </div>
-                    <p>8 min</p>
-                </div>
-                <div>
-                    <img src="Natural Smile.png" alt="Natural Smile Pic">
-                    <h3>Natural Smile</h3>
-                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                    <div> <!--Rating-->
-                        <img src="rating.png" alt="Rating Pic">
-                        <h4>Phillip Massey</h4>
-                    </div>
-                    <p>8 min</p>
-                </div>
-                <div>
-                    <img src="Sad Smile.png" alt="Sad Smile Pic">
-                    <h3>Sad Smile</h3>
-                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                    <div> <!--Rating-->
-                        <img src="rating.png" alt="Rating Pic">
-                        <h4>Phillip Massey</h4>
-                    </div>
-                    <p>8 min</p>
-                </div>
-            </section>
-            <section style="background-color: black;" > <!--Free Membership-->
-                <h2 style="color: white;"><span style="color: C271FF;">Free</span> membership</h2>
-                <div>
-                    <img src="smile.png" alt="Smile Pic">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div>
-                    <img src="smile.png" alt="Smile Pic">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div>
-                    <img src="smile.png" alt="Smile Pic">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div>
-                    <img src="smile.png" alt="Smile Pic">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
+    <main>
+        <h1>Get schooled</h1>
+        <section class="banner"> <!--Banner-->
+            <div class="text-facial-expressions">
+                <span>SMILES</span>
+                <span>GRIN</span>
+                <span>LAUGH</span>
+            </div>
+            <div>
                 <button>REGISTER FOR FREE</button>
-            </section> 
-            <section> <!--FAQ-->
-                <h2>F.A.Q</h2>
-                <div class="row block">
-                    <div class="item block"> <!--1st Row Block-->
-                        <div>  <!--1st Item Block-->
-                            <h3>How does this work?</h3>
-                        </div>
-                        <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-    
-                        <div> <!--2nd Item Block-->
-                            <h3>How does this work?</h3>
-                        </div>
-                        <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
+            </div>
+
+            <h2>Learn from the pros</h2>
+            <div>
+                <img src="Phillip Massey.png" alt="Phillip Massey Pic">
+                <h3>Phillip Massey</h3>
+                <p>« Smile of the year » 2018 - 2019</p>
+            </div>
+            <div>
+                <img src="Nannie Lawrence.png" alt="Nannie Lawrence Pic">
+                <h3>Nannie Lawrence</h3>
+                <p>Best « little smile » 2017</p>
+            </div>
+            <div>
+                <img src="Bruce Walters.png" alt="Bruce Walters Pic">
+                <h3>Bruce Walters</h3>
+                <p>Best « Friend Smile » live performance 2019</p>
+            </div>
+            <div>
+                <img src="Henry Hughes.png" alt="Henry Hughes Pic">
+                <h3>Henry Hughes</h3>
+                <p>« 24h smiles » winner 2016 - 2019</p>
+            </div>
+        </section>
+        <section class="person_name"> <!--Quote-->
+            <div>
+                <img src="Person Name.png" alt="Person Name Pic">
+            </div>
+            <div>
+                <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better place
+                    to learn smiling. And it’s so fun!</blockquote>
+                <h3>Person Name</h3>
+                <P>weather presenter</P>
+            </div>
+        </section>
+        <section> <!--Videos-->
+            <h2>Most popular tutorials</h2>
+            <div>
+                <img src="Diagonal Smile.png" alt="Diagonal Smile Pic">
+                <h3>Diagonal Smile</h3>
+                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div> <!--Rating-->
+                    <img src="rating.png" alt="Rating Pic">
+                    <h4>Phillip Massey</h4>
+                </div>
+                <p>8 min</p>
+            </div>
+            <div>
+                <img src="Happy Smile.png" alt="Happy Smile Pic">
+                <h3>Happy Smile</h3>
+                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div> <!--Rating-->
+                    <img src="rating.png" alt="rating">
+                    <h4>Phillip Massey</h4>
+                </div>
+                <p>8 min</p>
+            </div>
+            <div>
+                <img src="Natural Smile.png" alt="Natural Smile Pic">
+                <h3>Natural Smile</h3>
+                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div> <!--Rating-->
+                    <img src="rating.png" alt="Rating Pic">
+                    <h4>Phillip Massey</h4>
+                </div>
+                <p>8 min</p>
+            </div>
+            <div>
+                <img src="Sad Smile.png" alt="Sad Smile Pic">
+                <h3>Sad Smile</h3>
+                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div> <!--Rating-->
+                    <img src="rating.png" alt="Rating Pic">
+                    <h4>Phillip Massey</h4>
+                </div>
+                <p>8 min</p>
+            </div>
+        </section>
+        <section style="background-color: black;"> <!--Free Membership-->
+            <h2 style="color: white;"><span style="color: C271FF;">Free</span> membership</h2>
+            <div>
+                <img src="smile.png" alt="Smile Pic">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <img src="smile.png" alt="Smile Pic">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <img src="smile.png" alt="Smile Pic">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+                <img src="smile.png" alt="Smile Pic">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <button>REGISTER FOR FREE</button>
+        </section>
+        <section> <!--FAQ-->
+            <h2>F.A.Q</h2>
+            <div class="row block">
+                <div class="item block"> <!--1st Row Block-->
+                    <div> <!--1st Item Block-->
+                        <h3>How does this work?</h3>
                     </div>
-                    <div class="item block"> <!--2nd Row Block-->
-                        <div> <!--1st Item Block-->
-                            <h3>How does this work?</h3>
-                        </div>
-                        <div> 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                        <div> <!--2nd Item Block-->
-                            <h3>How does this work?</h3>
-                        </div>
-                        <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+
+                    <div> <!--2nd Item Block-->
+                        <h3>How does this work?</h3>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
-            </section> 
-            <footer style="background-color: black;"> <!--Footer-->
-                <section>
-                    <div>
-                        <img src="logo.png" alt="SmileSchool logo">
-                        <div>
-                            <i class="facebook brands"></i>
-                            <i class="twitter brands"></i>
-                            <i class="instagram brands"></i>
-                        </div>
+                <div class="item block"> <!--2nd Row Block-->
+                    <div> <!--1st Item Block-->
+                        <h3>How does this work?</h3>
                     </div>
-                    <p>©smileschool 2020</p>
-                </section>
-            </footer>
-        </main>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                    <div> <!--2nd Item Block-->
+                        <h3>How does this work?</h3>
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer> <!--Footer-->
+        <section>
+            <div>
+                <img src="logo.png" alt="SmileSchool logo">
+                <div>
+                    <i class="facebook brands"></i>
+                    <i class="twitter brands"></i>
+                    <i class="instagram brands"></i>
+                </div>
+            </div>
+            <p>©smileschool 2020</p>
+        </section>
+    </footer>
 </body>
 
 </html>
