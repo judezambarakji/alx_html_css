@@ -1,1 +1,0 @@
-This is an ALX HTML and CSS assignment.
