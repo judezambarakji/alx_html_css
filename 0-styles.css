@@ -1,0 +1,94 @@
+/* Main Styles for Headphones Website */
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Header and Hero Section */
+header {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+/* Hero Content */
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.hero-header-text {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.hero-subheading-text {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+/* CTA Button */
+
+.cta-button {
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero-paragraph-text {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+}
